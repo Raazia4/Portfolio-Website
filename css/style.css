@@ -160,3 +160,57 @@ p{
     text-transform: uppercase;
     margin-bottom: 0.3125rem;
  }
+ /* Services Section */
+ .services-wrapper .card{
+    background-color: white;
+    cursor: pointer;
+    transition: all .4s ease 0s;
+ }
+ .services-wrapper .card:hover{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: aliceblue;
+ }
+ /* Portfolio Section */
+ .portfolio-wrapper .nav-link{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin-right: 0.25rem;
+    color: black;
+    text-transform: uppercase;
+ }
+ .portfolio-wrapper .nav-link.active{
+    color: red;
+    background-color: transparent;
+ }
+ .portfolio-wrapper .portfolio-img{
+    position: relative;
+    cursor: pointer;
+ }
+ .portfolio-wrapper .portfolio-img .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .4s ease 0s;
+ }
+ .portfolio-wrapper .portfolio-img:hover .overlay{
+    background-color: rgba(77, 87, 222, 0.5);
+ }
+ .portfolio-wrapper .portfolio-img .overlay i{
+    font-size: 6.25rem;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease 0s;
+ }
+ .portfolio-wrapper .portfolio-img:hover .overlay i{
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+    left: 50%;
+ }
