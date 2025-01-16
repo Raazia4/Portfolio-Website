@@ -1,3 +1,4 @@
+/* Navbar and Banner Section */
 *{
    margin: 0px;
    padding: 0px;
@@ -96,3 +97,66 @@ p{
     background: black;
     overflow-x: hidden;
 } */
+
+/* About Section */
+.about-wrapper .single-logo-item{
+      width: 100%;
+      height: 6.875rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: 0.0625rem solid transparent;
+      /* border: 2px solid black; */
+      box-shadow: none;
+      transition: all .4s ease 0s;
+      
+}
+.about-wrapper .single-logo-item:hover{
+    border: 0.0625rem solid transparent;
+    box-shadow: 0 0.5rem 1.875rem rgb(118 85 255 /55%);
+}
+ .about-wrapper .client-info{
+    padding: 1.5625rem 1.875rem;
+    background-color: aliceblue;
+    position: relative;
+    margin-top: 1.5625rem;
+ }
+ .about-wrapper .client-info::before{
+    content: '';
+    position: absolute;
+    top: -1.5625rem;
+    left: -3.4375rem;
+    /* background: gray; */
+    border: 3px gray dotted;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.1; */
+    height: 10.9375rem;
+    width: 10.9375rem;
+ }
+ .about-wrapper .client-info .large{
+    color: black;
+    font-size: 6.25rem;
+    position: relative;
+    z-index: 9;
+    font-weight: 700;
+ }
+ .about-wrapper .client-info .smll{
+    text-align: left;
+    color: black;
+    font-size: 1.25rem;
+    margin-left: 1.24rem;
+    font-weight: 500;
+ }
+ .about-wrapper .client-info .call-now span{
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: red;
+
+ }
+ .about-wrapper .client-info .call-now p{
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 0.3125rem;
+ }
