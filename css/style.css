@@ -86,13 +86,13 @@ p{
     vertical-align: middle;
     align-self: center;
 }
-.banner-wrapper .banner-content::after{
+/* .banner-wrapper .banner-content::after{
     content: '';
-    width: 40%;
+    width: 60%;
     height: 0.125rem;
     position: absolute;
-    top: 25%;
-    left: 16%;
+    top: 50%;
+    left: 25%;
     background: black;
     overflow-x: hidden;
-}
+} */
